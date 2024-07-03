@@ -1,3 +1,4 @@
+import AppointmentBanner from "../components/AppointmentBanner";
 import Banner from "../components/Banner";
 import Care from "../components/Care";
 import DocSolutions from "../components/DocSolutions";
@@ -7,14 +8,17 @@ import Services from "../components/Services";
 
 const Home = () => {
   return (
-    <div className="container mx-auto space-y-10">
-      <Navbar />
-      <Banner />
-      <Care />
-      <DocSolutions />
-      <Services />
-      <Faq />
-    </div>
+    <>
+      <div className="container mx-auto space-y-10">
+        <Navbar />
+        <Banner />
+        <Care />
+        <DocSolutions />
+        <Services />
+        <Faq />
+        <AppointmentBanner />
+      </div>
+    </>
   );
 };
 
