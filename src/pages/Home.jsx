@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <Navbar />
     </div>
   );
