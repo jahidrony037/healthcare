@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import Care from "../components/Care";
+import DocSolutions from "../components/DocSolutions";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Care />
+      <DocSolutions/>
     </div>
   );
 };
