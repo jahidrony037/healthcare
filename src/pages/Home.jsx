@@ -6,6 +6,7 @@ import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Care />
         <DocSolutions />
         <Services />
+        <Testimonials/>
         <Faq />
         <AppointmentBanner />
       </div>
