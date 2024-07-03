@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import Care from "../components/Care";
 import DocSolutions from "../components/DocSolutions";
 import Navbar from "../components/Navbar";
+import Services from "../components/Services";
 
 const Home = () => {
   return (
@@ -9,7 +10,8 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Care />
-      <DocSolutions/>
+      <DocSolutions />
+      <Services />
     </div>
   );
 };
