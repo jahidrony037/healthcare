@@ -1,6 +1,7 @@
 import Banner from "../components/Banner";
 import Care from "../components/Care";
 import DocSolutions from "../components/DocSolutions";
+import Faq from "../components/Faq";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Care />
       <DocSolutions />
       <Services />
+      <Faq />
     </div>
   );
 };
